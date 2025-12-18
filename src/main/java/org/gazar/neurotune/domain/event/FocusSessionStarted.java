@@ -8,4 +8,4 @@ public record FocusSessionStarted(
         UUID userId,
         String focusMode,
         Instant startedAt
-) {}
+) implements DomainEvent{}

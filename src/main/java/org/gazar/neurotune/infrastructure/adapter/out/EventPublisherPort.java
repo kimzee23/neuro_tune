@@ -4,3 +4,4 @@ public interface EventPublisherPort {
 
     void publish(Object event);
 }
+
